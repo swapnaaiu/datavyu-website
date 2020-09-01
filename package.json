@@ -1,0 +1,21 @@
+{
+  "name": "Datavyu",
+  "version": "0.0.1",
+  "description": "A video annotation tool created by researchers for researchers.",
+  "main": "index.js",
+  "authors": {
+    "name": "Swapnaa Jayaraman",
+    "email": "swapnaa@nyu.edu"
+  },
+  "repository": "https://github.com/swapnaaiu/datavyu-website.git/Datavyu",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.3.1",
+    "@vuepress/plugin-back-to-top": "^1.3.1",
+    "@vuepress/plugin-medium-zoom": "^1.3.1"
+  }
+}
